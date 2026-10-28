@@ -13,4 +13,3 @@ router.get('/mydata', function(req, res) {
 });
 
 module.exports = router;
-
