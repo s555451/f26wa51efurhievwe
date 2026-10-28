@@ -7,11 +7,9 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
+/* GET mydata page. */
 router.get('/mydata', function(req, res) {
-  res.json({
-    message: 'My data route is working!',
-    name: 'Obora'
-  });
+  res.send('Mydata route works!');
 });
 
 module.exports = router;
